@@ -1,0 +1,14 @@
+.dark {
+  --clr-foreground: var(--clr-light);
+  --clr-background: var(--clr-dark);
+}
+
+.light {
+  --clr-foreground: var(--clr-dark);
+  --clr-background: var(--clr-light);
+}
+
+body {
+  color: var(--clr-foreground);
+  background-color: var(--clr-background);
+}

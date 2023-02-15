@@ -1,0 +1,7 @@
+:root {
+  --clr-dark: #000;
+  --clr-light: #fff;
+
+  --clr-foreground: var(--clr-dark);
+  --clr-background: var(--clr-light);
+}

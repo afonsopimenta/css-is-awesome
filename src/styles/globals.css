@@ -1,1 +1,4 @@
+@import 'variables.css';
 @import 'tailwind.css';
+@import 'defaults/reset.css';
+@import 'defaults/base-styles.css';
