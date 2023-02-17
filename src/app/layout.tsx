@@ -15,8 +15,8 @@ const RootLayout = ({ children }: Props) => {
   return (
     <html lang='en'>
       <head />
-      <body className={clsx(isDarkMode && 'dark', 'grid place-items-center')}>
-        <button onClick={toggleDarkMode} className='fixed top-4 left-4'>
+      <body className={clsx(isDarkMode && 'dark')}>
+        <button onClick={toggleDarkMode} className='fixed top-4 right-4'>
           Switch to {isDarkMode ? 'light' : 'dark'} mode
         </button>
         {children}

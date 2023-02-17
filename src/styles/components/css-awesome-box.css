@@ -1,0 +1,19 @@
+.css-awesome-box {
+  width: 452px;
+  height: 452px;
+  padding: 20px 34px;
+  border: solid 12px white;
+  font-size: 96pt;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 100%;
+}
+
+.css-awesome-box-fixed {
+  width: min-content;
+  padding: 2rem;
+  border: solid 0.75rem currentColor;
+  font-size: 5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}

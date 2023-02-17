@@ -1,4 +1,6 @@
-@import 'variables.css';
-@import 'tailwind.css';
+@import 'defaults/variables.css';
+@import 'defaults/tailwind.css';
 @import 'defaults/reset.css';
 @import 'defaults/base-styles.css';
+
+@import 'components/css-awesome-box.css';

@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 const COLOR_SCHEME_QUERY = '(prefers-color-scheme: dark)';
 
 const useDarkMode = (defaultValue?: boolean) => {
-  const [isDarkMode, setIsDarkMode] = useState<boolean>(false);
+  const [isDarkMode, setIsDarkMode] = useState(true);
 
   const setDarkMode = (value: boolean) => {
     localStorage.setItem('theme', value ? 'dark' : 'light');
@@ -27,7 +27,7 @@ const useDarkMode = (defaultValue?: boolean) => {
     const darkModeBrowserSetting =
       window.matchMedia(COLOR_SCHEME_QUERY).matches;
     setDarkMode(
-      darkModeStorage ?? defaultValue ?? darkModeBrowserSetting ?? false
+      darkModeStorage ?? defaultValue ?? darkModeBrowserSetting ?? true
     );
   }, [defaultValue]);
 
